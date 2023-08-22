@@ -1,499 +1,582 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Figma Land</title>
-        <style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Land</title>
+    <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito&family=Poppins:wght@300;400&family=Roboto&display=swap');
-        </style>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script>
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
         tailwind.config = {
             theme: {
-            extend: {
-                colors: {
-                    mainColor: '#EF2779',
-                    subColor: '#7834BE',
-                    lightColor: '#38A3F1',
-                    dullColor: '#F5F5F5',
-                    semiColor: '#252B42',
-                    greyColor: '#374754',
-                }
+                extend: {
+                    colors: {
+                        mainColor: '#EF2779',
+                        subColor: '#7834BE',
+                        lightColor: '#38A3F1',
+                        dullColor: '#F5F5F5',
+                        semiColor: '#252B42',
+                        greyColor: '#374754',
+                    }
+
+                },
 
             },
-            
-        },
-  plugins: [],
-}
-        
+            plugins: [],
+        }
+
     </script>
-    </head>
-    <body class>
+</head>
 
-        <main>
-            <!-- main section -->
-            <section>
-
-                <div
-                    class="bg-gradient-to-tr from-mainColor to-subColor h-[682px]">
-                    <div class="max-w-[1400px] mx-auto">
-                        <div class="flex -space-x-0.5">
-                            <div
-                                class="w-4 h-2 bg-mainColor rounded-[3px] mt-[36px]"></div>
-                            <div
-                                class="w-4 h-2 bg-subColor rounded-[3px] mt-[36px]"></div>
-                        </div>
-                        <div class="flex justify-between items-center">
-
-                            <div class="text-white text-[34px] font-ExtraBold">FIGMA
-                                LAND</div>
-                            <div
-                                class="text-white flex items-center gap-x-[45px] text-[14px] font-SemiBold">
-                                <p>Home</p>
-                                <p>Product</p>
-                                <p>Pricing</p>
-                                <p>About</p>
-                                <p>Contact</p>
-
-                                <p
-                                    class="bg-white text-black pl-[20px] py-1.5 pr-[90px] text-center rounded-[20px] text-[14px]"><button>Your
-                                        Email
-                                    </button></p>
-
-                                <p
-                                    class="bg-white px-[40px] py-1.5 text-center rounded-[20px] text-[14px]"><button>
-                                    </button></p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="mt-[90px] flex">
-                        <img src="./images/pic.png" alt>
-                        <div class="mt-[168px]">
-                            <p class="text-[40px] mr-[330px] text-white">We
-                                focus on ergonomics</p>
-                            <p class="text-white mt-[7px] text-[14px]">Most
-                                calenders are designed for teams. <br> Slate is
-                                designed for freelancers</p>
-                            <button
-                                class="bg-white text-subColor px-[50px] py-2.5 rounded-[30px] mt-[50px]">Try
-                                For Free</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- features section -->
-            <section class="pt-[300px]">
-                <div class="max-w-[1286px] mx-[620px]">
-                    <p
-                        class="text-[16px] font-ExtraBold text-center text-semiColor">At
-                        your fingertips</p>
-                    <p class="mt-[7px] text-center text-[36px] font-SemiBold">Features</p>
-                    <p
-                        class="mt-[20px] text-center text-[14px] font-SemiBold text-greyColor">Most
-                        calenders are designed for teams. Slate is designed for
-                        freelancers</p>
-                </div>
-
-                <div
-                    class="flex mx-[380px] justify-between mt-[80px] gap-x-[25px] font-ExtraBold">
-                    <div>
-                        <div class="flex mx-[20px] gap-x-3">
-                            <img src="./images/icon1.png" alt>
-                            <p>The best products start with Sketch</p>
-                        </div>
-                        <p
-                            class="pl-[30px] mt-[10px] text-[12px] text-greyColor">Slate
-                            helps you see how many more days you need to work to
-                            reach your financial goal</p>
-                    </div>
-
-                    <div>
-                        <div class="flex mx-[20px] gap-x-3">
-                            <img src="./images/icon2.png" alt>
-                            <p>Fastest way to organize</p>
-                        </div>
-                        <p
-                            class="pl-[30px] mt-[10px] text-[12px] text-greyColor">Slate
-                            helps you see how many more days you need to work to
-                            reach your financial goal</p>
-                    </div>
-
-                    <div>
-                        <div class="flex mx-[20px] gap-x-3">
-                            <img src="./images/icon3.png" alt>
-                            <p>Work better together</p>
-                        </div>
-                        <p
-                            class="pl-[30px] mt-[10px] text-[12px] text-greyColor">Slate
-                            helps you see how many more days you need to work to
-                            reach your financial goal</p>
-                    </div>
-                </div>
-
-                <!-- lightening section -->
-                <div class="mt-[100px] mx-[620px]">
-                    <p class="text-[40px] text-semiColor">Lightning fast</p>
-                    <p class="text-[40px] text-semiColor pl-[15px]">prototyping</p>
-                    <p class="mt-[17px] text-greyColor text-[14px]">Most
-                        calenders are designed for teams.</p>
-                    <p class="text-greyColor text-[14px] pl-[10px]">Slate is
-                        designed for freelancers</p>
-                    <button
-                        class="bg-lightColor text-white px-[30px] py-2.5 rounded-[30px] mt-[60px] ml-[40px]">Try
-                        For Free</button>
-                </div>
-
-                <div class="mx-[180px]">
-                    <img src="./images/img.png" alt>
-                </div>
-            </section>
-
-            <!-- prototyping section -->
-            <section class="mt-[80px]">
-                <div
-                    class="bg-gradient-to-tr from-mainColor to-subColor h-[380px] text-white">
-                    <div class="mx-[620px] pt-[70px]">
-                        <p>At your fingertips</p>
-                    </div>
-                    <div class="mx-[550px] text-[24px] pt-[7px]">
-                        <p>Lightning fast prototyping</p>
-                    </div>
-                    <div class="pt-[49px] mx-[590px] text-[14px]">
-                        <p>Subscribe to our Newsletter</p>
-                    </div>
-
-                    <div class="mx-[570px]">
-                        <button
-                            class="bg-white text-black pl-[20px] py-1.5 pr-[150px] text-center rounded-[20px] text-[12px] mt-[20px]">Your
-                            Email</button>
-                        <div>
-                            <button
-                                class="bg-mainColor text-white px-[87px] py-1.5 text-[12px] rounded-[30px] mt-[7px]">Subscribe</button>
-                        </div>
-                    </div>
-
-                    <div class="mx-[590px] mt-[20px] text-[12px]">
-                        <p>Available exclusively on Figmaland</p>
-                    </div>
-                </section>
-
-                <!-- partners section -->
-                <section class="pt-[140px]">
-                    <div class="mx-[620px] text-[34px] text-semiColor">
-                        <p class="text-black">Partners</p>
-                    </div>
-                    <div class="text-greyColor mx-[585px] mt-[7px] text-[16px]">
-                        <p>Most calenders are designed for teams.Slate is
-                            designed for freelancers</p>
-                    </div>
-
-                    <div
-                        class="flex text-greyColor mx-[380px] mt-[81px] gap-x-[50px]">
-                        <div>
-                            <p class="font-ExtraBold text-black">Client Name</p>
-                            <div class="mt-[15px]">
-                                <img src="./images/logo1.png" alt>
-                            </div>
-                            <p class="mt-[20px]">Slate helps you see how
-                                many more days you need
-                                to work to reach your
-                                financial goal for
-                                the month and year.</p>
-                        </div>
-
-                        <div>
-                            <p class="font-ExtraBold text-black">Client Name</p>
-                            <div class="mt-[15px]">
-                                <img src="./images/logo2.png" alt>
-                            </div>
-                            <p class="mt-[25px]">Slate helps you see how
-                                many more days you need
-                                to work to reach your
-                                financial goal for
-                                the month and year.</p>
-                        </div>
-
-                        <div>
-                            <p class="font-ExtraBold text-black">Client Name</p>
-                            <div class="mt-[15px]">
-                                <img src="./images/logo3.png" alt>
-                            </div>
-                            <p class="mt-[54px]">Slate helps you see how
-                                many more days you need
-                                to work to reach your
-                                financial goal for
-                                the month and year.</p>
-                        </div>
-                    </div>
-
-                    <div
-                        class="flex text-greyColor mx-[380px] mt-[70px] gap-x-[50px]">
-                        <div>
-                            <p class="font-ExtraBold text-black">Client Name</p>
-                            <div class="mt-[15px]">
-                                <img src="./images/logo3.png" alt>
-                            </div>
-                            <p class="mt-[20px]">Slate helps you see how
-                                many more days you need
-                                to work to reach your
-                                financial goal for
-                                the month and year.</p>
-                        </div>
-
-                        <div>
-                            <p class="font-ExtraBold text-black">Client Name</p>
-                            <div class="mt-[15px]">
-                                <img src="./images/logo4.png" alt>
-                            </div>
-                            <p class="mt-[25px]">Slate helps you see how
-                                many more days you need
-                                to work to reach your
-                                financial goal for
-                                the month and year.</p>
-                        </div>
-
-                        <div>
-                            <p class="font-ExtraBold text-black">Client Name</p>
-                            <div class="mt-[15px]">
-                                <img src="./images/logo5.png" alt>
-                            </div>
-                            <p class="mt-[25px]">Slate helps you see how
-                                many more days you need
-                                to work to reach your
-                                financial goal for
-                                the month and year.</p>
-                        </div>
-                    </div>
-
-                    <div class="mx-[660px]">
-                        <button
-                            class="bg-lightColor text-white px-[30px] py-2.5 rounded-[30px] mt-[60px]">Try
-                            For Free</button>
-                    </div>
-
-                </section>
-
-                <!-- Testimonial section -->
-                <section class="mt-[100px]">
-                    <div class="mx-[640px]">
-                        <div class="text-[40px] text-semiColor">
-                            <p>Testimonials</p>
-                        </div>
-
-                        <div class="mt-[50px]">
-                            <img src="./images/drop.png" alt>
-                        </div>
-                    </div>
-
-                    <div class="mt-[40px]">
-                        <div class="text-greyColor">
-                            <p class="mx-[420px]">Most calendars are designed
-                                for teams. Slate is designed for freelancers who
-                                want a simple</p>
-                            <p class="mx-[600px]">way to plan their schedule.</p>
-                        </div>
-                        <button
-                            class="mx-[650px] bg-lightColor text-white px-[30px] py-2.5 rounded-[30px] mt-[60px]">More
-                            Testimonials</button>
-                    </div>
-                </section>
-
-                <!-- pricing section -->
-                <section class="mt-[100px]">
-                    <div class="mx-[670px] text-[40px]">
-                        <p>Pricing</p>
-                    </div>
-
-                    <div class="mt-[7px] text-[14px] text-greyColor">
-                        <p class="mx-[600px]">Most calenders are designed for
-                            teams.</p>
-                        <p class="mx-[625px]">Slate is designed for freelancers</p>
-                    </div>
-
-                    <div class="flex mx-[167px] mt-[80px] justify-between">
-                        <div
-                            class="w-[30%] h-[300px] text-[20px] font-[ExtraBold] px-[20px] py-5 bg-white shadow-sm shadow-greyColor rounded-[10px]">
-                            <p class="text-semiColor text-[26px] pl-[30px]">Free</p>
-                            <p class="text-greyColor text-[14px] pl-[30px]">Organise
-                                across all apps by hand</p>
-
-                            <div class="flex pl-[40px] mt-[20px]">
-                                <p
-                                    class="text-[50px] text-semiColor font-ExtraBold">0</p>
-                                <div class="mt-[15px]">
-                                    <p
-                                        class="text-[16px] font-ExtraBold text-semiColor">$</p>
-                                    <p class="text-[14px] text-greyColor">Per
-                                        Month</p>
-                                </div>
-                            </div>
-                            <button
-                                class="bg-lightColor text-white px-[70px] py-1.5 rounded-[30px] ml-[40px] mt-[30px] text-[14px]">Order
-                                Now</button>
-                        </div>
-
-                        <div
-                            class="w-[30%] h-[300px] text-[20px] font-[ExtraBold] px-[20px] py-5 bg-white shadow-sm shadow-greyColor rounded-[10px]">
-                            <p class="text-semiColor text-[26px] pl-[30px]">STANDARD</p>
-                            <p class="text-greyColor text-[14px] pl-[30px]">Organise
-                                across all apps by hand</p>
-
-                            <div class="flex pl-[40px] mt-[20px]">
-                                <p
-                                    class="text-[50px] text-semiColor font-ExtraBold">10</p>
-                                <div class="mt-[15px]">
-                                    <p
-                                        class="text-[16px] font-ExtraBold text-semiColor">$</p>
-                                    <p class="text-[14px] text-greyColor">Per
-                                        Month</p>
-                                </div>
-                            </div>
-                            <button
-                                class="bg-lightColor text-white px-[70px] py-1.5 rounded-[30px] ml-[40px] mt-[30px] text-[14px]">Order
-                                Now</button>
-                        </div>
-
-                        <div
-                            class="w-[30%] h-[300px] text-[20px] font-ExtraBold px-[20px] py-5 bg-gradient-to-tr from-mainColor to-subColor rounded-[10px] text-white">
-                            <p class="text-[26px] pl-[30px]">BUSINESS</p>
-                            <p class="text-[14px] pl-[30px]">Organise across all
-                                apps by hand</p>
-
-                            <div class="flex pl-[40px] mt-[20px]">
-                                <p class="text-[50px] font-ExtraBold">99</p>
-                                <div class="mt-[15px]">
-                                    <p class="text-[16px] font-ExtraBold">$</p>
-                                    <p class="text-[14px]">Per Month</p>
-                                </div>
-                            </div>
-                            <button
-                                class="bg-white text-mainColor px-[70px] py-1.5 rounded-[30px] ml-[40px] mt-[30px] text-[14px]">Order
-                                Now</button>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Contact us section -->
-                <section class="mt-[100px]">
-                    <div class="bg-semiColor h-[720px] text-white">
-                        <div class="text-[40px] mx-[620px] pt-[85px]">
-                            <p>Contact Us</p>
-                        </div>
-
-                        <div class="mt-[7px] text-[14px]">
-                            <p class="mx-[600px]">Most calenders are designed
-                                for teams.</p>
-                            <p class="mx-[625px]">Slate is designed for
-                                freelancers</p>
-                        </div>
-
-                        <div class="flex mx-[350px] justify-between mt-[50px]">
-                            <div
-                                class="w-[50%] h-[420px] text-[20px] font-Bold px-[20px] py-5 bg-white rounded-[10px] text-white">
-                                <div
-                                    class="mt-[60px] bg-dullColor pr-[200px] py-1.5 rounded-[20px] pl-[15px]">
-                                    <button class="text-black text-[14px]">Your
-                                        Name</button>
-                                </div>
-
-                                <div
-                                    class="mt-[20px] bg-dullColor pr-[200px] py-1.5 rounded-[20px] pl-[15px]">
-                                    <button class="text-black text-[14px]">Your
-                                        Email</button>
-                                </div>
-
-                                <div
-                                    class="py-[50px] mt-[20px] bg-dullColor pr-[180px] pl-[15px]">
-                                    <button class="text-black text-[14px]">Your
-                                        Message</button>
-                                </div>
-
-                                <button
-                                    class="bg-mainColor text-white text-[16px] px-[30px] py-1.5 rounded-[30px] mt-[20px]">Send</button>
-                            </div>
-
-                            <div class="mt-[100px]">
-                                <div class="flex gap-x-3">
-                                    <img src="./images/add.png" alt>
-                                    <div>
-                                        <p class="text-[12px]">6386 Spring St
-                                            undefined Anchorage,</p>
-                                        <p class="text-[12px]">Georgia 12473
-                                            United States</p>
-                                    </div>
-                                </div>
-
-                                <div class="flex mt-[20px] gap-x-3">
-                                    <img src="./images/phone.png" alt>
-                                    <p class="text-[14px]">(843)555-0130</p>
-                                </div>
-
-                                <div class="flex mt-[20px] gap-x-3">
-                                    <img src="./images/message.png" alt>
-                                    <p class="text-[14px]">willie.jennings@example.com</p>
-                                </div>
-
-                                <div class="flex mt-[60px] gap-x-[30px]">
-                                    <img src="./images/twitter.png" alt>
-                                    <img src="./images/facebook.png" alt>
-                                    <img src="./images/linkedin.png" alt>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- CTA section -->
-                <section class="mt-[100px] mx-[200px]">
-                    <div
-                        class="bg-white h-[340px] text-semiColor flex justify-between">
-                        <div class="text-semiColor text-[14px]">
-                            <p class="text-[26px]">Pages</p>
-                            <p class="mt-[20px]">Eleanor Edwards</p>
-                            <p class="mt-[20px]">Ted Robertson</p>
-                            <p class="mt-[20px]">Annette Russell</p>
-                            <p class="mt-[20px]">Jennie Mckinney</p>
-                            <p class="mt-[20px]">Gloria Richards</p>
-                        </div>
-
-                        <div>
-                            <img src="./images/map.png" alt>
-                        </div>
-
-                        <div class="text-greyColor">
+<body class>
+    <main>
+        <!-- main section -->
+        <section>
+            <div class="bg-gradient-to-tr from-mainColor to-subColor h-[682px]">
+                <div class="max-w-[1400px] mx-auto">
+                    <div class="flex justify-between items-center pt-[30px] lg:px-0 px-4">
+                        <img src="./images/logo.png" alt="" class="">
+                        <div class="hidden lg:flex text-white flex items-center gap-x-[45px] text-[14px] font-SemiBold">
+                            <p>Home</p>
+                            <p>Product</p>
+                            <p>Pricing</p>
+                            <p>About</p>
+                            <p>Contact</p>
                             <div class="flex gap-x-3">
-                                <img src="./images/add.png" alt>
-                                <div>
-                                    <p class="text-[12px]">6386 Spring St
-                                        undefined Anchorage,</p>
-                                    <p class="text-[12px]">Georgia 12473 United
-                                        States</p>
-                                </div>
-                            </div>
+                                <input type="text" name="" id=""
+                                    class="bg-white text-black pl-10 py-5 rounded-[40px] text-[14px] placeholder:text-[14px] placeholder:text-black"
+                                    placeholder="Your Email">
 
-                            <div class="flex mt-[20px] gap-x-3">
-                                <img src="./images/phone.png" alt>
-                                <p class="text-[14px]">(843)555-0130</p>
+                                <p
+                                    class="bg-white px-[40px] py-5 text-center text-mainColor rounded-[50px] text-[14px]">
+                                    <button>Subcribe</button>
+                                </p>
                             </div>
+                        </div>
+                        <img src="./images/menu.png" alt="" class="lg:hidden flex">
+                    </div>
+                </div>
+                <div class="mt-[90px] flex flex-col lg:flex-row">
+                    <div class="lg:w-[1350px] pt-16 relative lg:order-1 order-2">
+                        <img src="./images/pic.png"
+                            class="lg:absolute w-full lg:-left-[165px] left-0 shadow-2xl px-5 lg:px-0">
+                    </div>
+                    <div class="lg:mt-[168px] lg:order-2 order-1">
+                        <p class="hidden lg:block text-[56px] leading-[65.5px] font-extrabold mr-[530px] text-white">
+                            We
+                            focus on ergonomics
+                        </p>
+                        <p class="lg:hidden block text-[56px] leading-[65.5px] font-extrabold  text-white text-center">
+                            Ligtning fast Prototyping
+                        </p>
+                        <p class="text-white mt-[17px] text-[14px] text-center lg:text-left">
+                            Most
+                            calenders are designed for teams.
+                            <br>
+                            Slate is
+                            designed for freelancers
+                        </p>
+                        <button class="bg-white px-[50px] py-2.5 rounded-[30px] mt-[50px] hidden lg:block">
+                            <p class="bg-gradient-to-tr from-mainColor to-subColor bg-clip-text text-transparent">Try
+                                For Free</p>
+                        </button>
 
-                            <div class="flex mt-[20px] gap-x-3">
-                                <img src="./images/message.png" alt>
-                                <p class="text-[14px]">willie.jennings@example.com</p>
-                            </div>
+                    </div>
+                    <button
+                        class="bg-lightColor max-w-[230px] mx-auto px-[50px] py-2.5 rounded-[30px] mt-[80px] lg:hidden order-3">
+                        <p class="text-white text-[22px] font-bold">Try
+                            For Free</p>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- features section -->
+        <section class="pt-[300px]">
+            <div class="max-w-[1286px] mx-auto px-[50px] lg:px-0">
+                <p class="text-[22px] font-extrabold text-center text-semiColor">
+                    At
+                    your fingertips
+                </p>
+                <p class="mt-[7px] text-center text-[46px] font-semibold">Features</p>
+                <p class="mt-[20px] text-center text-[16px] font-semibold text-greyColor">
+                    Most
+                    calenders are designed for teams. Slate is designed for
+                    freelancers
+                </p>
+            </div>
+            <div
+                class="flex flex-col lg:flex-row mx-auto max-w-[870px] justify-between mt-[80px] gap-x-[25px] gap-y-[75px] font-bold px-[82px] lg:px-0">
+                <div>
+                    <div class="flex items-center gap-x-3">
+                        <img src="./images/icon1.png" class="w-[45px] h-[45px]">
+                        <p class="text-[18px]">The best products start with Sketch</p>
+                    </div>
+                    <p class="mt-[10px] text-[14px] text-greyColor">
+                        Slate
+                        helps you see how many more days you need to work to
+                        reach your financial goal
+                    </p>
+                </div>
+                <div>
+                    <div class="flex items-center gap-x-3">
+                        <img src="./images/icon2.png" class="w-[45px] h-[45px]">
+                        <p class="text-[18px]">Fastest way to organize</p>
+                    </div>
+                    <p class="mt-[10px] text-[14px] text-greyColor">
+                        Slate
+                        helps you see how many more days you need to work to
+                        reach your financial goal
+                    </p>
+                </div>
+                <div>
+                    <div class="flex items-center gap-x-3">
+                        <img src="./images/icon3.png" class="w-[45px] h-[45px]">
+                        <p class="text-[18px]">Work better together</p>
+                    </div>
+                    <p class="mt-[10px] text-[14px] text-greyColor">
+                        Slate
+                        helps you see how many more days you need to work to
+                        reach your financial goal
+                    </p>
+                </div>
+            </div>
+            <!-- lightening section -->
+        </section>
+        <section class="mx-auto max-w-[1200px] text-center ">
+            <div class="mt-[100px] font-bold">
+                <p class="text-[40px] text-semiColor">Lightning fast</p>
+                <p class="text-[40px] text-semiColor pl-[15px]">prototyping</p>
+                <p class="mt-[17px] text-greyColor text-[14px]">
+                    Most
+                    calenders are designed for teams.
+                </p>
+                <p class="text-greyColor text-[14px] pl-[10px]">
+                    Slate is
+                    designed for freelancers
+                </p>
+                <button class="bg-lightColor text-white px-[30px] py-2.5 rounded-[30px] mt-[60px] lg:mb-0 mb-[60px] lg:ml-[40px]">
+                    Try
+                    For Free
+                </button>
+            </div>
+            <div class="">
+                <img src="./images/img.png" class="mx-auto">
+            </div>
+        </section>
+        <!-- prototyping section -->
+        <section class="mt-[80px] text-center">
+            <div class="bg-gradient-to-tr from-mainColor to-subColor lg:h-[380px] text-white text-center">
+                <div class=" pt-[70px] text-[22px] font-bold">
+                    <p>At your fingertips</p>
+                </div>
+                <div class="hidden lg:block text-[24px] pt-[7px]">
+                    <p>Lightning fast prototyping</p>
+                </div>
+                <div class="block lg:hidden text-[46px] pt-[7px]">
+                    <p>Newsletter</p>
+                </div>
+                <div class="pt-[49px] text-[22px] font-bold">
+                    <p>Subscribe to our Newsletter</p>
+                </div>
+                <div class="block lg:hidden mt-[20px] text-[18px]">
+                    <p>Available exclusively on Figmaland</p>
+                </div>
+                <div class="pb-[114px] lg:pb-0">
+                    <button
+                        class="bg-white text-black pl-[20px] py-5 pr-[150px] text-center rounded-[20px] text-[12px] mt-[20px]">
+                        Your
+                        Email
+                    </button>
+                    <div>
+                        <button
+                            class="bg-mainColor text-white px-[140px] py-5 text-[12px] rounded-[30px] mt-[7px]">Subscribe</button>
+                    </div>
+                </div>
+                <div class="lg:block hidden mt-[20px] text-[12px]">
+                    <p>Available exclusively on Figmaland</p>
+                </div>
+        </section>
+        <!-- partners section -->
+        <section class="pt-[140px]">
+            <div class="mx-[620px] text-center text-[34px] text-semiColor">
+                <p class="text-black">Partners</p>
+                <p class="text-greyColor mt-[7px] text-[16px]">
+                    Most calenders are designed for teams.Slate is
+                    designed for freelancers
+                </p>
+            </div>
+            <div class="flex text-greyColor max-w-[818px] mx-auto mt-[81px] gap-x-[50px] text-center">
+                <div>
+                    <p class="font-extrabold text-black">Client Name</p>
+                    <div class="mt-[15px] flex justify-center">
+                        <img src="./images/logo1.png" alt>
+                    </div>
+                    <p class="mt-[20px]">
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your
+                        financial goal for
+                        the month and year.
+                    </p>
+                </div>
+                <div>
+                    <p class="font-extrabold text-black">Client Name</p>
+                    <div class="mt-[15px] flex justify-center">
+                        <img src="./images/logo2.png" alt>
+                    </div>
+                    <p class="mt-[25px]">
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your
+                        financial goal for
+                        the month and year.
+                    </p>
+                </div>
+                <div>
+                    <p class="font-extrabold text-black">Client Name</p>
+                    <div class="mt-[15px] flex justify-center">
+                        <img src="./images/logo3.png" alt>
+                    </div>
+                    <p class="mt-[54px]">
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your
+                        financial goal for
+                        the month and year.
+                    </p>
+                </div>
+            </div>
+            <div class="flex text-greyColor max-w-[818px] mx-auto mt-[70px] gap-x-[50px] text-center">
+                <div>
+                    <p class="font-extrabold text-black">
+                        Client Name
+                    </p>
+                    <div class="mt-[15px] flex justify-center">
+                        <img src="./images/logo3.png" alt>
+                    </div>
+                    <p class="mt-[20px]">
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your
+                        financial goal for
+                        the month and year.
+                    </p>
+                </div>
+                <div>
+                    <p class="font-extrabold text-black">
+                        Client Name
+                    </p>
+                    <div class="mt-[15px] flex justify-center">
+                        <img src="./images/logo4.png" alt>
+                    </div>
+                    <p class="mt-[25px]">
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your
+                        financial goal for
+                        the month and year.
+                    </p>
+                </div>
+                <div>
+                    <p class="font-extrabold text-black">
+                        Client Name
+                    </p>
+                    <div class="mt-[15px] flex justify-center">
+                        <img src="./images/logo5.png" alt>
+                    </div>
+                    <p class="mt-[25px]">
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your
+                        financial goal for
+                        the month and year.
+                    </p>
+                </div>
+            </div>
+            <div class="mx-[660px] text-center">
+                <button class="bg-lightColor text-white px-[30px] py-2.5 rounded-[30px] mt-[60px]">
+                    Try
+                    For Free
+                </button>
+            </div>
+        </section>
+        <!-- Testimonial section -->
+        <section class="mt-[100px] text-center">
+            <div class="mx-[640px]">
+                <div class="text-[40px] text-semiColor">
+                    <p>
+                        Testimonials
+                    </p>
+                </div>
+                <div class="mt-[50px] flex justify-center">
+                    <img src="./images/drop.png">
+                </div>
+            </div>
+            <div class="mt-[40px]">
+                <div class="text-greyColor">
+                    <p class="mx-[420px]">
+                        Most calendars are designed
+                        for teams. Slate is designed for freelancers who
+                        want a simple
+                    </p>
+                    <p class="mx-[600px]">
+                        way to plan their schedule.
+                    </p>
+                </div>
+                <button class="mx-[650px] bg-lightColor text-white px-[30px] py-2.5 rounded-[30px] mt-[60px]">
+                    More
+                    Testimonials
+                </button>
+            </div>
+        </section>
+        <!-- pricing section -->
+        <section class="mt-[100px]">
+            <div class="text-[40px] text-center">
+                <p>
+                    Pricing
+                </p>
+            </div>
+            <div class="mt-[7px] text-[14px] text-greyColor text-center">
+                <p class="mx-[600px]">
+                    Most calenders are designed for
+                    teams.
+                </p>
+                <p class="mx-[625px]">
+                    Slate is designed for freelancers
+                </p>
+            </div>
+            <div class="flex max-w-[1105px] mt-[80px] gap-x-[50px] justify-center mx-auto">
+                <div
+                    class="w-[30%] h-[300px] text-[20px] font-[extrabold] px-[20px] py-5 bg-white shadow-sm shadow-greyColor rounded-[10px]">
+                    <p class="text-semiColor text-[26px] pl-[30px]">
+                        Free
+                    </p>
+                    <p class="text-greyColor text-[14px] pl-[30px]">
+                        Organise
+                        across all apps by hand
+                    </p>
+                    <div class="flex pl-[40px] mt-[20px]">
+                        <p class="text-[50px] text-semiColor font-extrabold">
+                            0
+                        </p>
+                        <div class="mt-[15px]">
+                            <p class="text-[16px] font-extrabold text-semiColor">
+                                $
+                            </p>
+                            <p class="text-[14px] text-greyColor">
+                                Per
+                                Month
+                            </p>
+                        </div>
+                    </div>
+                    <button
+                        class="bg-lightColor text-white px-[70px] py-1.5 rounded-[30px] ml-[40px] mt-[30px] text-[14px]">
+                        Order
+                        Now
+                    </button>
+                </div>
+                <div
+                    class="w-[30%] h-[300px] text-[20px] font-[extrabold] px-[20px] py-5 bg-white shadow-sm shadow-greyColor rounded-[10px]">
+                    <p class="text-semiColor text-[26px] pl-[30px]">
+                        STANDARD
+                    </p>
+                    <p class="text-greyColor text-[14px] pl-[30px]">
+                        Organise
+                        across all apps by hand
+                    </p>
+                    <div class="flex pl-[40px] mt-[20px]">
+                        <p class="text-[50px] text-semiColor font-extrabold">
+                            10
+                        </p>
+                        <div class="mt-[15px]">
+                            <p class="text-[16px] font-extrabold text-semiColor">
+                                $
+                            </p>
+                            <p class="text-[14px] text-greyColor">
+                                Per
+                                Month
+                            </p>
+                        </div>
+                    </div>
+                    <button
+                        class="bg-lightColor text-white px-[70px] py-1.5 rounded-[30px] ml-[40px] mt-[30px] text-[14px]">
+                        Order
+                        Now
+                    </button>
+                </div>
+                <div
+                    class="w-[30%] h-[300px] text-[20px] font-extrabold px-[20px] py-5 bg-gradient-to-tr from-mainColor to-subColor rounded-[10px] text-white">
+                    <p class="text-[26px] pl-[30px]">
+                        BUSINESS
+                    </p>
+                    <p class="text-[14px] pl-[30px]">
+                        Organise across all
+                        apps by hand
+                    </p>
+                    <div class="flex pl-[40px] mt-[20px]">
+                        <p class="text-[50px] font-extrabold">
+                            99
+                        </p>
+                        <div class="mt-[15px]">
+                            <p class="text-[16px] font-extrabold">
+                                $
+                            </p>
+                            <p class="text-[14px]">
+                                Per Month
+                            </p>
+                        </div>
+                    </div>
+                    <button
+                        class="bg-white text-mainColor px-[70px] py-1.5 rounded-[30px] ml-[40px] mt-[30px] text-[14px]">
+                        Order
+                        Now
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Contact us section -->
+        <section class="mt-[100px]">
+            <div class="bg-semiColor h-[720px] text-white">
+                <div class="text-[40px] mx-[620px] pt-[85px] text-center">
+                    <p>
+                        Contact Us
+                    </p>
+                </div>
+                <div class="mt-[7px] text-[14px] text-center">
+                    <p class="mx-[600px]">
+                        Most calenders are designed
+                        for teams.
+                    </p>
+                    <p class="mx-[625px]">
+                        Slate is designed for
+                        freelancers
+                    </p>
+                </div>
+                <div class="flex w-[730px] mx-auto gap-x-[65px] justify-center mt-[50px]">
+                    <div
+                        class="w-[50%] h-[420px] text-[20px] font-Bold px-[20px] py-5 bg-white rounded-[10px] text-white">
+                        <div>
+                            <input type="text" name="" id=""
+                                class="mt-[60px] bg-dullColor  py-1.5 rounded-[20px] text-black text-[14px] pl-[15px] w-full placeholder:text-black placeholder:text-[14px]"
+                                placeholder="Your Name">
+                        </div>
 
-                            <div class="flex mt-[60px] gap-x-[30px]">
-                                <img src="./images/twitter.png" alt>
-                                <img src="./images/facebook.png" alt>
-                                <img src="./images/linkedin.png" alt>
+                        <div>
+                            <input type="email" name="" id=""
+                                class="mt-[20px] bg-dullColor py-1.5 rounded-[20px] pl-[15px] text-black text-[14px] w-full placeholder:text-black placeholder:text-[14px]"
+                                placeholder="Your Email">
+                        </div>
+
+                        <div>
+                            <textarea name="" id="" cols="10" rows="6"
+                                class="mt-[20px] bg-dullColor text-black text-[14px]  py-1.5 pl-[15px] w-full placeholder:text-black placeholder:text-[14px]"
+                                placeholder="Your Message"></textarea>
+                        </div>
+
+                        <button class="bg-mainColor text-white text-[16px] px-[30px] py-1.5 rounded-[30px] mt-[20px]">
+                            Send
+                        </button>
+                    </div>
+                    <div class="mt-[100px]">
+                        <div class="flex gap-x-3">
+                            <img src="./images/add.png" alt>
+                            <div>
+                                <p class="text-[12px]">
+                                    6386 Spring St
+                                    undefined Anchorage,
+                                </p>
+                                <p class="text-[12px]">
+                                    Georgia 12473
+                                    United States
+                                </p>
                             </div>
+                        </div>
+                        <div class="flex mt-[20px] gap-x-3">
+                            <img src="./images/phone.png" alt>
+                            <p class="text-[14px]">
+                                (843)555-0130
+                            </p>
+                        </div>
+                        <div class="flex mt-[20px] gap-x-3">
+                            <img src="./images/message.png" alt>
+                            <p class="text-[14px]">
+                                willie.jennings@example.com
+                            </p>
+                        </div>
+                        <div class="flex mt-[60px] gap-x-[30px]">
+                            <img src="./images/twitter.png" alt>
+                            <img src="./images/facebook.png" alt>
+                            <img src="./images/linkedin.png" alt>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
+        <!-- CTA section -->
+        <section class="mt-[100px] mx-[200px]">
+            <div class="bg-white h-[340px] text-semiColor flex justify-between">
+                <div class="text-semiColor text-[14px]">
+                    <p class="text-[26px]">
+                        Pages
+                    </p>
+                    <p class="mt-[20px]">
+                        Eleanor Edwards
+                    </p>
+                    <p class="mt-[20px]">
+                        Ted Robertson
+                    </p>
+                    <p class="mt-[20px]">
+                        Annette Russell
+                    </p>
+                    <p class="mt-[20px]">
+                        Jennie Mckinney
+                    </p>
+                    <p class="mt-[20px]">
+                        Gloria Richards
+                    </p>
+                </div>
+                <div>
+                    <img src="./images/map.png" alt>
+                </div>
+                <div class="text-greyColor">
+                    <div class="flex gap-x-3">
+                        <img src="./images/add.png" alt>
+                        <div>
+                            <p class="text-[12px]">
+                                6386 Spring St
+                                undefined Anchorage,
+                            </p>
+                            <p class="text-[12px]">
+                                Georgia 12473 United
+                                States
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex mt-[20px] gap-x-3">
+                        <img src="./images/phone.png" alt>
+                        <p class="text-[14px]">
+                            (843)555-0130
+                        </p>
+                    </div>
+                    <div class="flex mt-[20px] gap-x-3">
+                        <img src="./images/message.png" alt>
+                        <p class="text-[14px]">
+                            willie.jennings@example.com
+                        </p>
+                    </div>
+                    <div class="flex mt-[60px] gap-x-[30px]">
+                        <img src="./images/twitter.png" alt>
+                        <img src="./images/facebook.png" alt>
+                        <img src="./images/linkedin.png" alt>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+</body>
 
-        </main>
-    </body>
 </html>
